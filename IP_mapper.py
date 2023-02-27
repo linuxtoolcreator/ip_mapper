@@ -14,5 +14,3 @@ for line in output.splitlines():
 
 print("Ağdaki IP adresleri: ")
 print(ips)
-
-f = open(ips.txt, "w")
