@@ -1,6 +1,6 @@
 import subprocess
 
-ip_range = "206.94.180.158/24"  # IP adresi aralığı
+ip_range = "127.0.0.1/24"  # IP adresi aralığı
 cmd = f"nmap -sn {ip_range}"  # nmap komutu
 process = subprocess.Popen(cmd.split(), stdout=subprocess.PIPE)
 output, error = process.communicate()
